@@ -1,0 +1,34 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+
+# Local tooling and agent metadata
+.agents/
+.codex/
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+
+# Local development files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.temp
+
+# Local preview servers
+.jekyll-cache/
+_site/
